@@ -21,7 +21,8 @@ public class DeliveryManager {
      */
     public void run() {
         System.out.println("DeliveryManager thread started.");
-
+        sortShipment();
+        printInventory();
     }
 
     /**
